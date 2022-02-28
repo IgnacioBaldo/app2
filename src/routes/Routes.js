@@ -20,6 +20,7 @@ const Routes = () => {
                 <Route path="/item/:id" element={<ItemDetailContainer />} />
                 <Route path="*" element={<NotFound />} />
             </Switch>
+            <Cart />
         </BrowserRouter>
     );
 };
